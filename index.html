@@ -98,7 +98,10 @@ img.emoji {
 <link rel="icon" href="img/photonew192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="img/photonew180x180.png" />
 
+<!--share icon-->
+<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5ff4947c0b50bc00198f4404&product=inline-share-buttons" async="async"></script>
 
+<!--share icon ended-->
 
 
 
@@ -637,8 +640,59 @@ div.panel.show {
 <p class="has-text-align-justify"><em><span style="color:#8300a3;" class="has-inline-color"><strong><b>Quotes</b></strong> &#8211; </span></em>“Anyone who has never made a mistake has never tried anything new.” </p>
 
 
+<!--contact form -->
 
+<link href="contact-form.css" rel="stylesheet">
 
+<div class="fcf-body">
+
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact me</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+		</div>
+		
+		<div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your phone number</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+        
+
+    </form>
+    </div>
+
+</div>
+<!--share icon -->
+<h6>share this</h6>
+<div class="sharethis-inline-share-buttons"></div>
+<!--share icon end -->
 <footer class="bg-light text-center text-lg-start">
 	<!-- Copyright -->
 	<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">

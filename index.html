@@ -109,7 +109,56 @@ img.emoji {
 
 <!--share icon ended-->
 
+<!--contact form style -->
+<style>
+	@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+</style>
+<!--contact form style end... -->
 
 
 	<style>
@@ -647,54 +696,20 @@ div.panel.show {
 
 
 <!--contact form -->
-
-<link href="contact-form.css" rel="stylesheet">
-
-<div class="fcf-body">
-
-    <div id="fcf-form">
-    <h3 class="fcf-h3">Contact me</h3>
-
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-        
-        <div class="fcf-form-group">
-            <label for="Name" class="fcf-label">Your name</label>
-            <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Your email address</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-            </div>
-		</div>
-		
-		<div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Your phone number</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-        </div>
-
-        
-
-    </form>
-    </div>
-
+<div class="contact-form">
+<form>      
+	<h5>Contact me </h5>
+	<br>
+	<input name="name" type="text" class="feedback-input" placeholder="Name" />   
+	<input name="email" type="text" class="feedback-input" placeholder="Email" />
+	<input name="number" type="text" class="feedback-input" placeholder="Phone Number (optional)" />
+	<textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+	<input type="submit" value="SUBMIT"/>
+  </form>
 </div>
+
+<!--contact form end... -->
+
 <!--share icon -->
 <h6>share this</h6>
 <div class="sharethis-inline-share-buttons"></div>

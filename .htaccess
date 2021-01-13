@@ -1,4 +1,10 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} !^www.
-RewriteCond %{HTTPS}s on(s)|offs()
-RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [NE,L,R]
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.hedu\.ml$
+RewriteRule ^/?$ "http\:\/\/hedu\.ml\/" [R=301,L]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>

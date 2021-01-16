@@ -7,6 +7,9 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L]
+
+RewriteCond %{HTTP_HOST} ^hedu.ml [NC]
+RewriteRule ^(.*)$ https://www.hedu.ml/$1 [L,R=301,NC]
 </IfModule>
 <IfModule mod_expires.c>
 ExpiresActive On

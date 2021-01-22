@@ -1,17 +1,26 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^www\.hedu.ml [NC]
-RewriteRule ^(.*)$ http://www.hedu.ml%{HTTP_HOST}/$1 [R=301,L]
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^hedu\.ml [NC]
+RewriteRule ^(.*)$ http://www.hedu.ml/ [L,R=301,NC]
+RewriteEngine on
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://hedu.ml%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+<IfModule mod_headers.c>
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www.hedu.ml$ [NC]
+RewriteRule ^(.*)$ http://www.hedu.ml/$1 [L,R=301]
 
 
 <IfModule mod_expires.c>
   ExpiresActive On
-
  # Images
   ExpiresByType image/jpeg "access plus 1 year"
   ExpiresByType image/gif "access plus 1 year"
   ExpiresByType image/png "access plus 1 year"
   ExpiresByType image/webp "access plus 1 year"
   ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/svg "access plus 1 year"
   ExpiresByType image/x-icon "access plus 1 year"
 
   # Video
@@ -35,3 +44,4 @@ RewriteRule ^(.*)$ http://www.hedu.ml%{HTTP_HOST}/$1 [R=301,L]
   ExpiresByType application/pdf "access plus 1 month"
   ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
 </IfModule>
+

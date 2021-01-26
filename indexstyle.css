@@ -148,12 +148,10 @@ div.panel.show{
 .focus-text{
     color: red;
 }
-#focus-bordermm{
+.focus-border{
     border-style: double;
 }
-#focus-borderem{
-    border-style: double;
-}
+
 #focus-text1{
     color: red;
     font-size: 24px;
@@ -163,54 +161,97 @@ div.panel.show{
 
 }
   /*focus-area*/
-  #focus-area1{
+  .focustextarea{
     font-size: 95%;
 }
-#focus-area2{
+button.accordion.focustextarea {
     font-size: 95%;
 }
-#focus-area3{
-    font-size: 95%;
+
+.latest-uploads{
+    color: darkmagenta;
 }
-#focus-area4{
-    font-size: 95%;
-}
-#focus-area5{
-    font-size: 95%;
-}
-#focus-area6{
-    font-size: 95%;
-}
-#focus-area7{
-    font-size: 95%;
-}
-#focus-area8{
-    font-size: 95%;
-}
-#focus-area9{
-    font-size: 95%;
-}
-#focus-area10{
-    font-size: 95%;
-}
-#focus-area11{
-    font-size: 95%;
-}
-#focus-area12{
-    font-size: 95%;
-}
-#focus-area13{
-    font-size: 95%;
-}
-#focus-area14{
-    font-size: 95%;
-}
-#focus-area15{
-    font-size: 95%;
-}
-#focus-area16{
-    font-size: 95%;
-}
+/* submit-form sytle*/
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+    padding: 20px;
+    background: #F9F9F9;
+    padding: 25px;
+    margin:  0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .column h3{
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-weight: bolder;
+  }
+ 
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #submit{
+     
+      cursor: pointer;
+      width: 100%;
+      border: none;
+      background: #4CAF50;
+      color: #FFF;
+      margin: 0 0 5px;
+      padding: 10px;
+      font-size: 15px;
+      
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
 
   
 

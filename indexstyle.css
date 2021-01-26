@@ -152,10 +152,7 @@ div.panel.show{
     border-style: double;
 }
 
-#focus-text1{
-    color: red;
-    font-size: 24px;
-}
+
 #mm-focusareabutton{
     font-size: larger;
 
@@ -169,7 +166,7 @@ button.accordion.focustextarea {
 }
 
 .latest-uploads{
-    color: darkmagenta;
+    color: black;
 }
 /* submit-form sytle*/
 * {
@@ -194,9 +191,7 @@ button.accordion.focustextarea {
     cursor: pointer;
   }
   
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
+ 
   
   /* Style the container/contact section */
   .container {
@@ -245,13 +240,7 @@ button.accordion.focustextarea {
       
   }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
+ 
 
   
 

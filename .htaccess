@@ -43,5 +43,13 @@ RewriteRule ^(.*)$ http://www.hedu.ml/$1 [L,R=301]
   # Others
   ExpiresByType application/pdf "access plus 1 month"
   ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
-</IfModule>
+
+  # Your document html
+  ExpiresByType text/html "access plus 0 seconds"
+
+  # CSS and JavaScript
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/css "access plus 1 year"
+  
+  </IfModule>
 

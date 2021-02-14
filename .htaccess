@@ -52,4 +52,7 @@ RewriteRule ^(.*)$ http://www.hedu.ml/$1 [L,R=301]
   ExpiresByType text/css "access plus 1 year"
   
   </IfModule>
-
+# 1 Month for most static assets
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=2592000, public"
+</filesMatch>

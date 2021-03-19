@@ -1,162 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://hedu.ml/</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/index.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blog.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-em.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-em-Malayalam.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-em-English.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-em-hindi.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-em-arabic.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-em-socialscience.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-em-maths.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-em-physics.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-em-chemistry.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-mm.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blog-questionpool.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blog-questionbank.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-focus-em.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-focus-mm.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/contact.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-focus-syllabus-em.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-focus-syllabus-mm.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-em-biology.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-focus-malayalm.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-focus-english.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-focus-Hindi.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-focus-Arabic.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-focus-socialscience.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-focus-maths.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-focus-physics.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-focus-chemistry.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hedu.ml/blogs/blog-focus-biology.html</loc>
-  <lastmod>2021-02-15T11:45:49+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- Generated by Web-Site-Map.com -->
+<url><loc>https://hedu.ml/</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>1.00</priority></url>
+<url><loc>https://hedu.ml/index.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blog.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-em.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-em-Malayalam.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-em-English.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-em-hindi.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-em-arabic.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-em-socialscience.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-em-maths.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-em-physics.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-em-chemistry.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-mm.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blog-questionpool.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blog-questionbank.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-focus-em.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-focus-mm.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/contact.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-focus-syllabus-em.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-focus-syllabus-mm.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-em-biology.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-focus-malayalm.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-focus-english.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-focus-Hindi.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-focus-Arabic.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-focus-socialscience.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-focus-maths.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-focus-physics.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-focus-chemistry.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
+<url><loc>https://hedu.ml/blogs/blog-focus-biology.html</loc><lastmod>2021-02-25T22:53:39+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
 </urlset>
+ 
